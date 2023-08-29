@@ -1,0 +1,103 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    height: 100vh;
+    min-height: 100%;
+    -webkit-background-size: cover;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: white;
+    border-bottom: 3px solid black;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 110px;
+    font-family: 'Montserrat', sans-serif;
+    color: #222831;
+}
+input, #option, textarea{
+    width: 50%;
+    padding: 9px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #222831;
+
+}
+#fullContainer{
+    background-color: rgba(0,0,0,0.1);
+    height: 100vh;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #222831;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #C06C84;
+    font-size: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cta{
+    margin: 20px;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: #A1C298;
+    color: #EEEEEE;
+}
+.cta:hover{
+    background-color: #DD4A48;
+}
+
+@media all and ( max-width: 500px){
+
+    p{
+        font-size: 10px;
+    }
+    .label{
+        font-size: 10px;
+        margin-left: 25%;
+    }
+    input{
+        font-size: 10px;
+    }
+    input, #option, textarea{
+        width: 90%;
+    }
+    .cta{
+        width: 35%;
+        margin: 10px;
+    }
+   
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form to fill up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="fullContainer">
+    <div id="form">
+        <h1>Get in touch</h1>
+        <p>Fill in the form and we will get back to you within 24 hours.</p>
+    </div>
+
+        <form accept-charset="utf-8" action="https://formspree.io/f/mzblrlvr" method="POST">
+        <div class="label">
+            <label class="lbl">Your First and last name</label>
+            <input type="text" name="name" placeholder="Enter your name here" required>
+        
+        </div>
+        <br>
+        <div class="label">
+            <label class="lbl">Your email</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+        <div class="label">
+            <label class="lbl">Your phone</label>
+            <input type="phone" name="phone" placeholder="Enter your phone" required>
+        </div>
+        <br>
+       <div class="label">
+            <label class="lbl">Your Message</label>
+            <textarea rows="3" type="text" name="message" placeholder="Ad your information here" required></textarea>
+        </div>
+        <br>
+        <div class="btn">
+            <button type="submit" class="cta">Send</button>
+        </div>
+    </form>
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
