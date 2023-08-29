@@ -24,7 +24,7 @@ body{
     color: #222831;
 }
 input, #option, textarea{
-    width: 50%;
+    width: 95%;
     padding: 9px;
     border-bottom: 1px solid black;
     border-top: none;
